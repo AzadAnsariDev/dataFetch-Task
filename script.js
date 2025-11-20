@@ -5,7 +5,7 @@ const users = [
   {
     fullName: "Lisa Desuza",
     profession: "Product Designer",
-    description: "Lisa Desuza simple, usable interfaces for mobile apps.",
+    description: "Lisa Desuzagit simple, usable interfaces for mobile apps.",
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80"
   },
   {
@@ -43,7 +43,7 @@ users.forEach((c)=>{
             <h3>${c.profession}</h3>
             <p>${c.description}</p>
         `
-    console.log(div);
+
     
     main.appendChild(div)
 })
